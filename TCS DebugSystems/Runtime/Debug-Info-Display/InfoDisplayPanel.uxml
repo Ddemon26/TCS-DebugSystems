@@ -1,0 +1,47 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/PackageSystems/TCS-Debug/TCS%20Debug/Runtime/Debug-Info-Display/InfoDisplayPanelSS.uss?fileID=7433441132597879392&amp;guid=2664537554c974c43bb711edddedd320&amp;type=3#InfoDisplayPanelSS" />
+    <engine:VisualElement name="main-panel" class="main-panel container__hide" style="transition-property: translate, display; transition-duration: 0.4s, 0.1s; transition-timing-function: ease-in-out, ease; transition-delay: 0s, 0.4s;">
+        <engine:VisualElement name="hub-panel" class="container-padding container-border container-background">
+            <engine:VisualElement name="hub-panel__container" class="container-border container-inner-background" style="flex-grow: 1;">
+                <engine:VisualElement name="header-panel" class="container-padding">
+                    <engine:Label text="Info" class="main-header__label label-padding" />
+                </engine:VisualElement>
+                <engine:VisualElement style="height: 4%;" />
+                <engine:VisualElement name="toggle-button-panel" view-data-key="ToggleButtonKey" class="container-padding center-align container__hide">
+                    <engine:ToggleButtonGroup>
+                        <engine:Button text="Button" />
+                        <engine:Button text="Button" />
+                        <engine:Button text="Button" />
+                    </engine:ToggleButtonGroup>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:Button text="X" name="close-button" style="position: absolute; right: 2%; top: 2%; width: 6%; height: 6%; background-color: rgb(149, 39, 39); font-size: 24px;" />
+        <engine:VisualElement name="---space---" style="height: 2%;" />
+        <engine:VisualElement name="switch-panel-1" class="flex-grow container-padding container-border container-background">
+            <engine:VisualElement name="panel-1__container" class="container-padding flex-grow container-inner-background container-border">
+                <engine:VisualElement name="panel-1" class="flex-grow">
+                    <engine:Label text="Commands" style="-unity-text-align: middle-center;" />
+                    <engine:Label text="Label" style="flex-shrink: 1; flex-grow: 1; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+                        <Bindings>
+                            <engine:DataBinding property="text" data-source="project://database/Assets/_TestSystems/Info%20Display%20Settings.asset?fileID=11400000&amp;guid=e8f4db70d71060148910371732ebd998&amp;type=2#Info Display Settings" binding-mode="ToTarget" data-source-path="m_infoDetails" />
+                        </Bindings>
+                    </engine:Label>
+                </engine:VisualElement>
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="switch-panel-2" class="flex-grow container-padding container-border container-background container__hide">
+            <engine:VisualElement name="panel-2__container" class="container-padding flex-grow container-inner-background container-border">
+                <engine:VisualElement name="panel-2" class="flex-grow" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+        <engine:VisualElement name="switch-panel-3" class="flex-grow container-padding container-border container-background container__hide">
+            <engine:VisualElement name="panel-3__container" class="container-padding flex-grow container-inner-background container-border">
+                <engine:VisualElement name="panel-3" class="flex-grow" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="open-debug-panel" style="flex-grow: 1; position: absolute; margin-left: 2px; margin-top: 24px; transition-property: translate, display; transition-delay: 0.4s; transition-duration: 0.4s, 0.1s; transition-timing-function: ease-in-out, ease-in-out;">
+        <engine:Button text="Info" name="open__button" style="border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: rgb(42, 42, 42);" />
+    </engine:VisualElement>
+</engine:UXML>
