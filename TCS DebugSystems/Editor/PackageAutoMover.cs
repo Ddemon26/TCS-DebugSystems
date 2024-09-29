@@ -1,8 +1,8 @@
-//[InitializeOnLoad]
-namespace TCDebug.Editor {
-    public class PackageAutoMover {
-        static PackageAutoMover() {
-            PackageAssetMover.MoveAssets();
-        }
-    }
-}
+// //[InitializeOnLoad]
+// namespace TCDebug.Editor {
+//     public class PackageAutoMover {
+//         static PackageAutoMover() {
+//             PackageAssetMover.MoveAssets();
+//         }
+//     }
+// }
