@@ -1,7 +1,7 @@
 using Sirenix.OdinInspector;
 using UnityEngine;
 // ReSharper disable once CheckNamespace
-namespace TCDebug.PackageSystems {
+namespace TCS.DebugSystems {
     /// <summary>
     /// A class to capture screenshots in Unity.
     /// </summary>

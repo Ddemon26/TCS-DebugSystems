@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 
 // ReSharper disable once CheckNamespace
-namespace TCDebug.Editor {
+namespace TCS.DebugSystems.Editor {
     public class PackageAssetMover : UnityEditor.Editor {
         // Menu item to trigger the move
         [MenuItem("Tools/Move Package Assets to Assets Folder")]

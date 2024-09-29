@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-// ReSharper disable once CheckNamespace
-namespace TCDebug.PackageSystems {
+namespace TCS.DebugSystems {
     /// <summary>
     /// A class that allows a UI window to be dragged within the bounds of its StackLabel canvas.
     /// </summary>

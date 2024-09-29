@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
-using static TCS.Debug.InfoDisplayPanelStrings;
-namespace TCS.Debug {
+using static TCS.DebugSystems.InfoDisplayPanelStrings;
+namespace TCS.DebugSystems {
     public class InfoDisplayPanel : MonoBehaviour {
         UIDocument m_uiDocument;
         VisualElement m_root;

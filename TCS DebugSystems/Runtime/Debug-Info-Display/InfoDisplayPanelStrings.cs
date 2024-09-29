@@ -1,5 +1,5 @@
 // This file was generated using TC Generation
-namespace TCS.Debug {
+namespace TCS.DebugSystems {
     public static class InfoDisplayPanelStrings {
         public const string MAIN_PANEL = "main-panel";
         public const string HUB_PANEL = "hub-panel";

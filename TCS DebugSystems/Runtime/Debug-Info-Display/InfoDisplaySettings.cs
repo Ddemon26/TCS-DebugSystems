@@ -1,5 +1,5 @@
 using UnityEngine;
-namespace TC._TestSystems
+namespace TCS.DebugSystems
 {
     [CreateAssetMenu(fileName = "Info Display Settings", menuName = "TCS/InfoDisplaySettings")]
     public class InfoDisplaySettings : ScriptableObject

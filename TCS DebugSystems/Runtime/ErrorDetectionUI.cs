@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 // ReSharper disable once CheckNamespace
-namespace TCDebug.PackageSystems {
+namespace TCS.DebugSystems {
     public class ErrorDetectionUI : MonoBehaviour {
         [SerializeField] TextMeshProUGUI m_errorTextMesh;
         [SerializeField] Button m_closePanel;
