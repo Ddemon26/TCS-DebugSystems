@@ -1,41 +1,40 @@
-# 🎨 Tent City Studio Debug
+# 🎨 TCS DebugSystems
 
 ![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
 ![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
 [![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
 
 ***
-![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+TCS+Debug+for+Unity)
+![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+TCS+DebugSystems+for+Unity)
 ***
 
-![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-Debug)
-![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-Debug)
+![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-DebugSystems)
+![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-DebugSystems)
 
-![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-Debug)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-Debug)
+![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-DebugSystems)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-DebugSystems)
 
 [![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
 ![Discord](https://img.shields.io/discord/1047781241010794506)
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-Debug)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-Debug)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-Debug)
+![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-DebugSystems)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-DebugSystems)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-DebugSystems)
 
-![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-Debug)
-![Static Badge](https://img.shields.io/badge/Noobs-0-blue)
+![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-DebugSystems)
 
-✨ **TCS Debug** is a Unity tool designed to enhance debugging capabilities by providing features like screenshot capture, error detection UI, and draggable windows. It simplifies the debugging process and improves the overall development experience.
+✨ **TCS DebugSystems** is a Unity tool designed to enhance debugging capabilities by providing features like screenshot capture, error detection UI, and draggable windows. It simplifies the debugging process and improves the overall development experience.
 
 ![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
 
 ## 📜 Table of Contents
-- [Features](#features)
-- [Getting Started](#getting-started)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+- Features
+- Getting Started
+- Installation
+- Usage
+- Customization
+- Contributing
+- License
 
 ## ✨ Features
 
@@ -45,7 +44,7 @@
 
 ## 🚀 Getting Started
 
-Follow these steps to start using the **TCS Debug**:
+Follow these steps to start using the **TCS DebugSystems**:
 
 1. **Install Dependencies**: Ensure that [Odin Inspector](https://odininspector.com/) is installed, as it is required for custom editor features.
 
