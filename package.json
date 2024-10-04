@@ -3,12 +3,7 @@
   "displayName": "TCS-DebugSystems",
   "description": "A simple debug system for Unity",
   "version": "1.0.1",
-  "keywords": [
-    "debug",
-    "system",
-    "unity",
-    "simple"
-  ],
+  "keywords": ["debug", "system", "unity", "simple"],
   "category": "Tent City Studio",
   "dependencies": {},
   "author": {
