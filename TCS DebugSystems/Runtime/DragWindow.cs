@@ -8,6 +8,7 @@ namespace TCS.DebugSystems {
         [Tooltip("The RectTransform of the window to be dragged.")]
         [SerializeField] RectTransform m_dragRectTransform;
         
+        
         [Tooltip("The Canvas in which the window is contained.")]
         [SerializeField] Canvas m_canvas;
         
