@@ -1,88 +1,59 @@
-# 🎨 TCS DebugSystems
+# TCS DebugSystems
 
-![Unity](https://img.shields.io/badge/Unity-2022.3+-black.svg?style=for-the-badge&logo=unity)
-![Contributions welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=for-the-badge)
-[![Odin Inspector](https://img.shields.io/badge/Odin_Inspector-Required-blue?style=for-the-badge)](https://odininspector.com/)
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/Ddemon26/TCS-DebugSystems)
+![GitHub issues](https://img.shields.io/github/issues/Ddemon26/TCS-DebugSystems)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-DebugSystems)
+![GitHub](https://img.shields.io/github/license/Ddemon26/TCS-DebugSystems)
 
-***
-![Banner Image](https://via.placeholder.com/1000x300.png?text=assets+TCS+DebugSystems+for+Unity)
-***
+## Overview
 
-![GitHub Forks](https://img.shields.io/github/forks/Ddemon26/TCS-DebugSystems)
-![GitHub Contributors](https://img.shields.io/github/contributors/Ddemon26/TCS-DebugSystems)
+**TCS DebugSystems** is an advanced debugging toolkit specifically crafted for Unity, designed to optimize and streamline the debugging workflow within both the Unity Editor environment and during runtime. This package delivers a comprehensive suite of features and utilities, empowering developers to efficiently identify, diagnose, and resolve issues throughout their projects. It includes tools for runtime diagnostics visualization, automated build processes, and custom in-editor functionality, all engineered to facilitate a highly productive development experience.
 
-![GitHub Stars](https://img.shields.io/github/stars/Ddemon26/TCS-DebugSystems)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/Ddemon26/TCS-DebugSystems)
+## Features
 
-[![Join our Discord](https://img.shields.io/badge/Discord-Join%20Us-7289DA?logo=discord&logoColor=white)](https://discord.gg/knwtcq3N2a)
-![Discord](https://img.shields.io/discord/1047781241010794506)
+- **Debug Information Display**: A sophisticated mechanism for configuring and visualizing diagnostic information directly on-screen during gameplay, providing real-time insights into application behavior.
+- **Screenshot Utility**: A robust utility to capture runtime screenshots, facilitating the documentation of game states, issues, or emergent bugs during testing.
+- **DragWindow Utility**: Provides functionality for incorporating draggable UI elements, thereby enhancing flexibility and customization capabilities during runtime testing.
+- **Error Detector Prefab**: A specialized prefab designed to detect and highlight runtime errors, simplifying the identification and remediation of critical issues.
+- **Editor Build Tools**: Tools engineered to automate packaging and build-related workflows, reducing manual overhead and enhancing overall efficiency in the development cycle.
 
-![GitHub Issues](https://img.shields.io/github/issues/Ddemon26/TCS-DebugSystems)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ddemon26/TCS-DebugSystems)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/Ddemon26/TCS-DebugSystems)
+## Installation
 
-![GitHub License](https://img.shields.io/github/license/Ddemon26/TCS-DebugSystems)
+1. Clone or download the repository from GitHub.
+2. Copy the `TCS DebugSystems` folder into the `Assets` directory of your Unity project.
+3. Verify the presence of all necessary dependencies as outlined in the `package.json` file.
 
-✨ **TCS DebugSystems** is a Unity tool designed to enhance debugging capabilities by providing features like screenshot capture, error detection UI, and draggable windows. It simplifies the debugging process and improves the overall development experience.
+## Getting Started
 
-![Demo GIF](https://media.giphy.com/media/l4Ep6KDbnTvdhGMP6/giphy.gif)
+1. **Debug Information Display**: To incorporate the Debug Information Display into your scene, navigate to the `Runtime/Debug-Info-Display` directory and locate the `InfoDisplayPanel` prefab. Drag this prefab into your desired scene to enable its functionality.
 
-## 📜 Table of Contents
-- Features
-- Getting Started
-- Installation
-- Usage
-- Customization
-- Contributing
-- License
+2. **Screenshot Utility**: Use the `TakeScreenShot.cs` script to capture the current gameplay state as needed. Hotkeys can be configured to suit specific testing requirements.
 
-## ✨ Features
+## Project Structure
 
-- **Screenshot Capture**: Capture screenshots and save them to a specified file path.
-- **Error Detection UI**: Display error messages in a UI panel and provide options to copy error details.
-- **Draggable Windows**: Allow UI windows to be dragged within the bounds of their canvas.
+- `TCS DebugSystems/Editor`: Contains scripts that extend the Unity Editor's native capabilities, providing bespoke functionality such as automated packaging (`PackageAutoMover.cs`) and build process management (`TCDebugPlayerBuildProcessor.cs`).
+- `TCS DebugSystems/Runtime`: Includes runtime scripts designed to facilitate debugging, such as tools for displaying diagnostic information (`Debug-Info-Display`) and draggable UI elements to improve runtime interface manipulation.
+- `Plugins/Prefabs`: Contains prefabricated assets such as the `ErrorDetector` prefab, which is integral for straightforward runtime error detection and integration into various project components.
 
-## 🚀 Getting Started
+## Requirements
 
-Follow these steps to start using the **TCS DebugSystems**:
+- Unity version 2021.1 or newer
+- .NET Framework version 4.x
 
-1. **Install Dependencies**: Ensure that [Odin Inspector](https://odininspector.com/) is installed, as it is required for custom editor features.
+## Contributing
 
-2. **Open the Debug Tools**: In Unity, navigate to `Tools > Debug Tools` to open the tool's editor window.
+We highly encourage contributions aimed at extending and refining the functionality of TCS DebugSystems. To contribute, please follow these steps:
 
-3. **Initialize Systems**: Set up the screenshot capture, error detection UI, and draggable windows in your game scene.
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your feature (`git checkout -b feature-branch-name`).
+3. Implement and commit your changes (`git commit -m 'Add new feature'`).
+4. Push your changes to the newly created branch (`git push origin feature-branch-name`).
+5. Open a pull request to initiate the review process.
 
-4. **Use Debug Features**: Utilize the provided scripts to capture screenshots, display error messages, and drag UI windows.
+## License
 
-## 🔧 Installation
+This project is distributed under the MIT License. For detailed terms, refer to the [LICENSE](LICENSE) file.
 
-1. Clone or download this repository.
-2. Add the folder to the `Assets` directory in your Unity project.
-3. Install [Odin Inspector](https://odininspector.com/).
-4. Open the Unity Editor and access the Debug Tools through the `Tools` menu.
+## Contact
 
-## 🛠️ Usage
-
-1. **Screenshot Capture**: Use the `TakeScreenShot` class to capture screenshots and save them to a specified file path.
-2. **Error Detection UI**: Use the `ErrorDetectionUI` class to display error messages in a UI panel and provide options to copy error details.
-3. **Draggable Windows**: Use the `DragWindow` class to allow UI windows to be dragged within the bounds of their canvas.
-
-## ⚙️ Customization
-
-- **Screenshot Path**: Customize the file path where screenshots will be saved in the `TakeScreenShot` class.
-- **Error UI Customization**: Customize the appearance and behavior of the error detection UI in the `ErrorDetectionUI` class.
-- **Drag Constraints**: Adjust the constraints for dragging UI windows in the `DragWindow` class.
-
-## 🤝 Contributing
-
-Contributions are welcome! To contribute:
-
-1. Fork the repository.
-2. Create a new feature branch (`git checkout -b feature/NewFeature`).
-3. Make your changes and commit (`git commit -m 'Add new feature'`).
-4. Push to the branch (`git push origin feature/NewFeature`).
-5. Open a pull request.
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+For inquiries or technical support, please feel free to open an issue on the repository or contact the maintainers via the issue tracker.
